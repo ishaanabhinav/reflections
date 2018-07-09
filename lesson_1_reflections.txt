@@ -1,0 +1,64 @@
+1 --> How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+
+	While using diff, i could easily make the difference between
+	the lines of code that i changed.sometimes doing it manually isnt easy for the fact that when we cross check two files,the speed at which we read is too fast...by the time i read space, spacr and spac is same as i dont read anything after spac.
+
+
+
+2 --> How could having easy access to the entire history of a 
+file make you a more efficient programmer in the long term?
+
+	certain changes create a series of changes,sometimes desired ones and mostly undesired ones because life of a programmer aint easy.having a chance to go back to a previosu version can save some serious time as you can go back and change the code to get the exact change or sit back and correct all the mistakes that has occured after making the change.
+
+
+
+
+3 --> What do you think are the pros and cons of manually 
+choosing when to create a commit, like you do in Git, vs having 
+versions automatically saved, like Google Docs does?
+
+	Pros: You get to decide when there is need to commit,when making a commit will actually matter.
+
+	Cons: Sometimes,we can overdo the changes without commiting, makes it too big of a chagne. not easy to decide when to commit as certain logical chagnes may be co-related.
+
+
+
+
+4 --> Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, like 
+Google Docs, treat each file separately?
+
+	Git being used by programmers,who deal with multiple files 
+	for  single project which makes it crucial to have multiple 
+	saving files feature. It is an crucial function without 
+	which every change which creates a series of change would 
+	need to be commit separately and then traced back 
+	separately too which amkes the process too cumbersome.
+
+
+
+
+
+5 --> How can you use the commands git log and git diff to view 
+the history of files?
+
+
+	git log gives the sorted view of all the commits that has been made along with the unique commit id...
+	git diff - gives the number of lines added and removed after comparing two commits whose commit id has to be passed as parameter to git diff.
+
+
+
+
+6 --> How might using version control make you more confident 
+to make changes that could break something?
+
+	There is always a possibility to revert back to the time when the change wasnt made...even if its a series of change, you can always traverse back untill you find the commit that created the error
+
+
+
+7 -->How Do You Want to Use Git
+
+	Use git to keep track of all the changes made to different 
+	files in the rep.Commit logical unit changes and use 
+	chekout to sort errors.

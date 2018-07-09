@@ -1,0 +1,8 @@
+1 --> What happens when you initialize a repository? Why
+do you need to do it?
+
+	it creates a .git file. no commit takes place. 
+	header is default.
+
+	We need to do it to creat a rep so that we can commit
+	the changes that take place from this point.
